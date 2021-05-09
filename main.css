@@ -69,13 +69,14 @@ ul {
     background: none;
     outline: 0;
     color: #fff;
+
     border-bottom: 1px solid #d53031;
 }
 
 .contact-form form button {
     background: #b70e21;
     color: #000;
-    border: 0;
+    border-radius: 10px;
     text-transform: uppercase;
     padding: 1em;
 }
@@ -109,7 +110,7 @@ ul {
     padding: .3em;
 }
 
-/* LARGE SCREEN */
+  /* LARGE SCREEN */
 @media (main-width: 700px) {
     body {
         padding: 0 4rem;      
